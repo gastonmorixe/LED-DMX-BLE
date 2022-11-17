@@ -1,0 +1,21 @@
+{
+  "name": "ble",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "esr src/app.ts"
+  },
+  "dependencies": {
+    "@abandonware/noble": "^1.9.2-15",
+    "@types/minimist": "^1.2.2",
+    "@types/node": "^18.11.9",
+    "esbuild": "^0.15.14",
+    "esbuild-runner": "^2.2.2",
+    "eslint": "^8.27.0",
+    "eslint-prettier": "^0.0.0-empty",
+    "minimist": "^1.2.7",
+    "prettier": "^2.7.1",
+    "typescript": "^4.9.3"
+  }
+}
